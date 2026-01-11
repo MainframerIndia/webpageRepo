@@ -578,6 +578,22 @@ body {
     color: var(--text-secondary);
 }
 
+/* Subsection titles */
+.subsection-title {
+    font-size: 1.5rem;
+    color: var(--accent-secondary);
+    margin-top: var(--spacing-lg);
+    margin-bottom: var(--spacing-sm);
+    padding-bottom: var(--spacing-xs);
+    border-bottom: 2px solid var(--border-color);
+}
+
+.subsection-intro {
+    color: var(--text-muted);
+    margin-bottom: var(--spacing-md);
+    font-size: 0.95rem;
+}
+
 .blog-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
